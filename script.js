@@ -19,12 +19,12 @@ createBtn.addEventListener("click", ()=>{
 
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable","true");
-    img.src = "images/delete.png";
+    img.src = "delete.png";
     img.classList.add("delete-icon");
 
     notesContainer.appendChild(inputBox).appendChild(img); //This ensures that the delete image appears inside the text box. img trong inputBox trong container 
 
-    tick.src = "images/checked.jpg"; // Use the uploaded tick image
+    tick.src = "checked.jpg"; // Use the uploaded tick image
     tick.classList.add("tick-icon");
     tick.style.display = "none"; // Hide tick initially
 
